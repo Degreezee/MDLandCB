@@ -1,0 +1,3 @@
+g++ -c main.cpp -o main.o
+nasm -f elf64 vowels.asm -o vowels.o
+g++ main.o vowels.o -o lab5
